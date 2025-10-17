@@ -16,14 +16,17 @@ The project combines **three key analytical reports** to provide a comprehensive
 1.  **Supplier Selection:** 
 -   Automatically identifies the **supplier with the lowest cost** based on filters.
 -   Evaluates detailed cost components, including **Non-Recurring Cost (NRC)**, **Unit Cost**, and **Full Cost**, across different volumes and suppliers.
+![Supplier Selection Dashboard](https://github.com/Jalynn-X/PowerBI-supply-chain-analysis/blob/main/images/Supplier%20Selection%20Dashboard.PNG)
 
-2.  **Scenario Analysis:**  
+2.  **Scenario Planner:**  
 -   Simulates **cost trends** under varying production volumes for the Buy option.
 -   Highlights the **lowest-cost supplier** interactively based on filters, enabling quick identification of optimal sourcing partners.
+![Scenario Planner Dashboard](https://github.com/Jalynn-X/PowerBI-supply-chain-analysis/blob/main/images/Scenario%20Planner%20Dashboard.PNG)
     
 3.  **Make vs Buy:**  
 -   Compares **total costs** of Make (internal manufacturing) versus Buy (external procurement).
 -   Identifies the **most cost-effective sourcing strategy** under different business assumptions and conditions.
+![Make vs Buy Dashboard](https://github.com/Jalynn-X/PowerBI-supply-chain-analysis/blob/main/images/Make%20versus%20Buy%20Dashboard.PNG)
 
 ## Custom Measures
 The Power BI model includes **custom DAX measures** to calculate and compare costs across scenarios:
@@ -55,5 +58,4 @@ The Power BI model includes **custom DAX measures** to calculate and compare cos
     -   Returns Make if internal manufacturing is cheaper or equal
     -   Returns Buy if external procurement is cheaper
     -   Returns blank if no internal manufacturing data exists for the scenario
-
 
